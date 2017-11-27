@@ -2,12 +2,17 @@
 
 > A exercise test for SIRCLO
 
+``` bash
+#Dependency
 Dependency: Mocha
-Exercise 1: npm run exercise1
-Exercise 2: npm run exercise2
-            npm run exercise2-test
-Exercise 3: npm run dev
 
+#Exercise 1
+Exercise 1: npm run exercise1
+#Exercise 2
+Exercise 2: npm run exercise2 | npm run exercise2-test
+#Exercise 3
+Exercise 3: npm run dev
+```
 
 ## Build Setup
 
