@@ -1,5 +1,5 @@
 var assert = require('assert')
-const Cart = require('./../src/cart.js')
+const Cart = require('./../exercises/cart.js')
 
 function cartTest() {
     let cart = new Cart()

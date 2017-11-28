@@ -1,6 +1,6 @@
 # exercises
 
-> A exercise test for SIRCLO
+> An exercise test for SIRCLO
 
 ``` bash
 #Dependency

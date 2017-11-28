@@ -27,6 +27,10 @@ module.exports = {
       '@': resolve('src'),
     }
   },
+  node: {
+    fs: 'empty',
+    net: 'empty'
+  },
   module: {
     rules: [
       {
