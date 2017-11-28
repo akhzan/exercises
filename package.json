@@ -15,7 +15,10 @@
     "exercise2-test": "mocha test/exercise2-test"
   },
   "dependencies": {
-    "vue": "^2.5.2"
+    "babel-polyfill": "^6.26.0",
+    "core-js": "^2.5.1",
+    "vue": "^2.5.2",
+    "whatwg-fetch": "^2.0.3"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",

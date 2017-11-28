@@ -24,7 +24,8 @@
 </template>
 
 <script>
-import qs from "qs";
+import qs from "qs"
+import 'whatwg-fetch'
 export default {
     name: "Weather",
     data() {

@@ -11,7 +11,7 @@ function resolve (dir) {
 module.exports = {
   context: path.resolve(__dirname, '../'),
   entry: {
-    app: './src/main.js'
+    app: ['./src/main.js', 'whatwg-fetch', 'babel-polyfill', 'core-js/fn/promise']
   },
   output: {
     path: config.build.assetsRoot,

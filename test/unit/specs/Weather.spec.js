@@ -29,4 +29,11 @@ describe('Weather.vue', () => {
       expect(vm.gridData.length).to.equal(5)
     },1000)
   })
+  // it('gridData key date should have type of date', () => {
+  //   setTimeout(() => {
+  //     const date_regex = /^(19|20)\d{2}$-(0[1-9]|1\d|2\d|3[01])-(0[1-9]|1[0-2])/ ;
+  //     // console.log(vm.gridData)
+  //     expect(vm.gridData).to.equal('xxx')
+  //   },1000)
+  // })
 })
